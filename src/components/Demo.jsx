@@ -1,12 +1,11 @@
-import React from 'react'
-import Steps from './Steps'
+import React from 'react';
 
 const Demo = () => {
   return (
     <>
-    <Steps />
+      
     </>
-  )
-}
+  );
+};
 
-export default Demo
+export default Demo;
