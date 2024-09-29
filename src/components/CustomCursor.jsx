@@ -25,7 +25,7 @@ const CustomCursor = () => {
   return (
     <div
       id="cursor"
-      className="h-5 w-5 bg-green-500 rounded-full fixed pointer-events-none z-50"
+      className="h-[2vw] w-[2vw] bg-[#658352] rounded-full fixed pointer-events-none z-50"
     ></div>
   );
 };

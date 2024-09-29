@@ -20,14 +20,15 @@ const Navbar = () => {
 
       {/* Middle Section: Links */}
       <div className="ml-auto mr-auto flex gap-[2vw]">
-        {["Home", "The Problem", "Our Solution", "Contact Us"].map(
+        {["Home", "The Problem", "Our Solution", "Pricing", "Contact Us"].map(
           (item, index) => (
             <a
               key={index}
               href="#"
-              className="hover:text-indigo-600 transition-colors duration-300"
+              className="relative group text-black hover:text-indigo-600 transition-colors duration-300 font-semibold"
             >
               {item}
+              <span className="absolute left-0 bottom-0 top-[30px] h-[3px] w-0 bg-[#658352] rounded-full transition-all duration-300 ease-in-out group-hover:w-full"></span>
             </a>
           )
         )}

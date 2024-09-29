@@ -16,9 +16,9 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="w-[15vw] p-[0.5vw] mr-[1vw] rounded-[10px]"
+                className="w-[20vw] p-[0.5vw] mr-[1vw] rounded-[40px] bg-transparent border-[1px] border-[#658352] border-solid text-center placeholder:text-black"
               />
-              <button className="p-[0.5vw] bg-green-200 rounded-[10px]">
+              <button className="p-[0.5vw] w-[10vw]  bg-transparent text-[#658352] hover:bg-[#94a687] hover:text-white border-[1px] border-[#658352] border-solid  rounded-[40px] font-semibold">
                 Subscribe
               </button>
             </div>
@@ -59,7 +59,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="bottomfooter">
-            <p className='mt-[5vw] ml-[6.6vw]'>&copy;2024 NFC Website; All Rights Reserved</p>
+          <p className="mt-[5vw] ml-[6.6vw]">
+            &copy;2024 NFC Website; All Rights Reserved
+          </p>
         </div>
       </div>
     </>

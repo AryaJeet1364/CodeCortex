@@ -77,7 +77,10 @@ const ContactUs = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="submit-btn p-[1vw] bg-green-400">
+            <button
+              type="submit"
+              className="submit-btn p-[1vw] bg-[#658352] hover:bg-[#7f9b6d] text-white"
+            >
               SEND A MESSAGE
             </button>
           </form>
